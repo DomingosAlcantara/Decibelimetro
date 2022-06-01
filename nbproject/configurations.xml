@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="Interfaces">
+        <in>EntradasESaidas.h</in>
+        <in>KY_038.h</in>
+        <in>Limites.h</in>
+        <in>Menu.h</in>
+        <in>Refazer.h</in>
+        <in>Relogio.h</in>
+        <in>TAlarmes.h</in>
+        <in>TDecibelimetroSD.h</in>
+      </df>
+      <df name="src">
+        <in>DecibelimetroSD.cpp</in>
+        <in>KY_038.cpp</in>
+        <in>main.cpp</in>
+      </df>
+      <in>platformio.ini</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject|.pioenvs)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile></projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+        <includeAdditional>true</includeAdditional>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>C:\\Python27\\Scripts\\platformio.exe -f -c netbeans run</buildCommand>
+          <cleanCommand>C:\\Python27\\Scripts\\platformio.exe -f -c netbeans run --target clean</cleanCommand>
+          <executablePath>nbproject/private/tools/localhost/Arduino/avr-gcc.exe</executablePath>
+          <cTool>
+            <incDir>
+              <pElem>src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\cores\arduino</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\variants\standard</pElem>
+              <pElem>C:\Users\Domingos\.platformio\lib\HCSR04 ultrasonic sensor_ID2428\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\__cores__\arduino\EEPROM\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\__cores__\arduino\HID\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\__cores__\arduino\SPI\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\__cores__\arduino\SoftwareSerial\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\__cores__\arduino\Wire\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Adafruit_CircuitPlayground</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Adafruit_CircuitPlayground\utility</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Bridge\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Esplora\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Ethernet\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Firmata</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Firmata\utility</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\GSM\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Keyboard\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\LiquidCrystal\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Mouse\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\RobotIRremote\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Robot_Control\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Robot_Motor\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\SD\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Servo\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\SpacebrewYun\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Stepper\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\TFT\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Temboo\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\WiFi\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\toolchain-atmelavr\avr\include</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\toolchain-atmelavr\lib\gcc\avr\4.9.2\include</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\toolchain-atmelavr\lib\gcc\avr\4.9.2\include-fixed</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\tool-unity</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>ARDUINO=10805</Elem>
+              <Elem>ARDUINO_ARCH_AVR</Elem>
+              <Elem>ARDUINO_AVR_UNO</Elem>
+              <Elem>F_CPU=16000000L</Elem>
+              <Elem>PLATFORMIO=30600</Elem>
+              <Elem>__AVR_ATmega328P__</Elem>
+            </preprocessorList>
+          </cTool>
+          <ccTool>
+            <standard>11</standard>
+            <incDir>
+              <pElem>src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\cores\arduino</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\variants\standard</pElem>
+              <pElem>C:\Users\Domingos\.platformio\lib\HCSR04 ultrasonic sensor_ID2428\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\__cores__\arduino\EEPROM\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\__cores__\arduino\HID\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\__cores__\arduino\SPI\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\__cores__\arduino\SoftwareSerial\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\__cores__\arduino\Wire\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Adafruit_CircuitPlayground</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Adafruit_CircuitPlayground\utility</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Bridge\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Esplora\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Ethernet\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Firmata</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Firmata\utility</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\GSM\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Keyboard\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\LiquidCrystal\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Mouse\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\RobotIRremote\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Robot_Control\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Robot_Motor\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\SD\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Servo\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\SpacebrewYun\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Stepper\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\TFT\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\Temboo\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\framework-arduinoavr\libraries\WiFi\src</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\toolchain-atmelavr\avr\include</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\toolchain-atmelavr\lib\gcc\avr\4.9.2\include</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\toolchain-atmelavr\lib\gcc\avr\4.9.2\include-fixed</pElem>
+              <pElem>C:\Users\Domingos\.platformio\packages\tool-unity</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>ARDUINO=10805</Elem>
+              <Elem>ARDUINO_ARCH_AVR</Elem>
+              <Elem>ARDUINO_AVR_UNO</Elem>
+              <Elem>F_CPU=16000000L</Elem>
+              <Elem>PLATFORMIO=30600</Elem>
+              <Elem>__AVR_ATmega328P__</Elem>
+            </preprocessorList>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="Interfaces/EntradasESaidas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Interfaces/KY_038.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Interfaces/Limites.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Interfaces/Menu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Interfaces/Refazer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Interfaces/Relogio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Interfaces/TAlarmes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Interfaces/TDecibelimetroSD.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="platformio.ini" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/DecibelimetroSD.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/KY_038.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
